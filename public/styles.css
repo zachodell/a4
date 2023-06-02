@@ -1,0 +1,42 @@
+/* CSS styles for the front-end interface */
+
+h1 {
+    text-align: center;
+}
+
+#menuItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.menuItem {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.menuItem p {
+    margin: 5px 0;
+}
+
+#addItemForm {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#addItemForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+#addItemForm input[type="text"],
+#addItemForm input[type="number"],
+#addItemForm input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+#addItemForm button {
+    margin-top: 10px;
+}
